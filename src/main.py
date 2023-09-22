@@ -1,5 +1,5 @@
 from utils.input_validator import get_valid_input
-from utils.hint_generator import generate_hint
+from game_logic.hint_generator import generate_hint
 from utils.random_generator import random_generator
 from game_logic.score_calculator import scorer
 
