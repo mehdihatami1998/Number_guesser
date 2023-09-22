@@ -25,6 +25,10 @@ number-guesser project/
 ## How to Run
 1. Navigate to the project main directory (NUMBER-GUESSER-PROJECT)
 2. Add current directory to the `PYTHONPATH` and run `main.py`
+```
+export PYTHONPATH=$PYTHONPATH:$(pwd)
+python src/main.py
+```
 3. Follow on-screen prompt to run the game
 
 ## Modules
