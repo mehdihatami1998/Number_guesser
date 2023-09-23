@@ -15,6 +15,7 @@ number-guesser project/
 | |-- utils/
 | | |-- input_validator.py
 | | |-- random_generator.py
+| | |-- time_calculator.py
 | |-- game_logic/
 | | |-- hint_generator
 | | |-- score_calculator
@@ -39,4 +40,5 @@ python src/main.py
 - `src/utils/`: It contains the utility functions
   - `input_validator.py`: It checks if user's input is valid or not, and provides appropriate feedback if not.
   - `random_generator.py`: It generates random numbers that user need to guess
+  - `time_calculator.py`: It calculates the time that user will spend palying
   
