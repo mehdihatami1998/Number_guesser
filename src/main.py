@@ -4,9 +4,6 @@ from utils.random_generator import random_generator
 from game_logic.score_calculator import scorer
 
 
-
-
-
 def main():
     correct_answer = random_generator(1, 100)
     print (correct_answer)
@@ -29,6 +26,6 @@ def main():
             generate_hint(user_input, correct_answer)
             scorerClass.decrement_score()
 
-if __name__ == '__main__':
+if __name__ == '__main__': 
     main()
 
