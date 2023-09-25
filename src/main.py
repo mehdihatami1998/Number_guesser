@@ -16,12 +16,13 @@ def main():
         if user_input == correct_answer:
             
             print('That''s it, you guessed correctly!')
-            print(scorerClass.get_score())
+            print (f'your score is: {scorerClass.get_score()}')
             repeat = input('Do you want to play again? (y/n): ')
             if repeat == 'y':
                 main()
                 
             else:
+
                 break
 
         else:
