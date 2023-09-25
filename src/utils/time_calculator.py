@@ -9,9 +9,10 @@ def timer(func):
 
 
         #output = func(*args, **kwargs)
-        return func(*args, **kwargs)
+        
         end_time = time.perf_counter()
         print(f'You were playing for {end_time - start_time} seconds!')
+        return func(*args, **kwargs)
         #return output
     
     return wrapper
