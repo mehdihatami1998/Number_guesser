@@ -14,17 +14,14 @@ def main():
         user_input = get_valid_input(1, 100)
         
         if user_input == correct_answer:
-            
             print('That''s it, you guessed correctly!')
             print (f'your score is: {scorerClass.get_score()}')
             repeat = input('Do you want to play again? (y/n): ')
             if repeat == 'y':
                 main()
-                
             else:
-
+                print('thanks for Playing this game!')
                 break
-
         else:
             
             generate_hint(user_input, correct_answer)
@@ -33,4 +30,3 @@ def main():
 if __name__ == '__main__': 
     main()
 
-print(main.__name__)
